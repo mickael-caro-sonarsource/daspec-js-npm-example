@@ -17,6 +17,7 @@ var InventoryService = function () {
 				} else {
 					result.shipped[key] = orderList[key];
 					items[key] -= orderList[key];
+					console.log("bonjour")
 				}
 			});
 			return result;
