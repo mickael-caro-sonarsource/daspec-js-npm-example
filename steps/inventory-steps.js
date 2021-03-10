@@ -24,6 +24,8 @@ defineStep(/The following items will be (.*):/, function (status, tableOfItems) 
 		itemsToCheck = orderResult.shipped;
 	} else if (status == 'added to the exception queue') {
 		itemsToCheck = orderResult.exception;
+		itemsToCheck = orderResult.exception;
+		itemsToCheck = orderResult.exception;
 	}
 	actualTable = Object.keys(itemsToCheck).map(function (key) {
 		return [key, itemsToCheck[key]];
