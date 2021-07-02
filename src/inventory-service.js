@@ -22,3 +22,7 @@ var InventoryService = function () {
 			return result;
 		};
 	};
+
+var hello = function () {
+	console.log("hello, world ! ");	
+}
